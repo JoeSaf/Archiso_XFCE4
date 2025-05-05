@@ -4,7 +4,7 @@
 
 mkdir ./airootfs/etc/profile.d
 cow_file=./airootfs/etc/profile.d/expand_cowsize.sh
-size=1G
+size=4G
 if [ "$1" != "" ]; then
     echo "Using custom size $1"
     size=$1
